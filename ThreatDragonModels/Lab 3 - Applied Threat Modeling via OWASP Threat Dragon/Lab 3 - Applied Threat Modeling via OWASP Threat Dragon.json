@@ -1752,6 +1752,16 @@
                 "button-remove",
                 "vertices",
                 "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
                 "target-arrowhead"
               ],
               "name": null
@@ -1863,37 +1873,59 @@
             "target": {
               "cell": "f47aaaa8-c212-44bb-bb70-3d8e0c0b184f",
               "port": "d86cfee7-ab7f-4b33-b569-8db54172be26"
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Refund Path",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Refund Path"
+            ],
+            "id": "49531aa8-c16c-45b5-a980-90e9c2814447",
+            "source": {
+              "x": 731,
+              "y": 230
+            },
+            "target": {
+              "cell": "5f062075-7048-4f1a-8299-ff128e026cd8",
+              "port": "e9b709d2-b761-4440-b9e7-1c5d939b2da9"
+            },
+            "vertices": [
+              {
+                "x": 731,
+                "y": 110
+              }
+            ]
           },
           {
             "position": {
@@ -2017,7 +2049,7 @@
           },
           {
             "position": {
-              "x": 772,
+              "x": 782,
               "y": 275
             },
             "size": {
@@ -2137,7 +2169,7 @@
           },
           {
             "position": {
-              "x": 792,
+              "x": 802,
               "y": 110
             },
             "size": {
@@ -2374,6 +2406,58 @@
               "privilegeLevel": "",
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 15,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send Email",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Send Email"
+            ],
+            "id": "b1b320ae-efd4-45f2-9f7b-3ac25a0fad16",
+            "source": {
+              "x": 910,
+              "y": 320
+            },
+            "target": {
+              "cell": "f7376320-7825-4ec2-8818-87953e45ef14",
+              "port": "7255ad77-887a-4b6a-b9e6-e169e83b1331"
+            },
+            "vertices": [
+              {
+                "x": 980,
+                "y": 330
+              }
+            ]
           }
         ]
       }
