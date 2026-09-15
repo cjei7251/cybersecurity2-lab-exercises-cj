@@ -1332,6 +1332,62 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Lookup",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Lookup"
+            ],
+            "id": "909917b2-946b-4251-9669-6fe5e50bd376",
+            "source": {
+              "cell": "ea386bae-7843-4ff8-831c-bd4be127799d",
+              "port": "b6ddb078-aabb-4e33-a006-001a5894c3bb"
+            },
+            "target": {
+              "cell": "c3998175-66e1-497d-b41a-81266c476f1b",
+              "port": "ba3df3e7-0f6e-4fb0-a4c6-e92a7f8c8256"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
             "position": {
               "x": 560,
               "y": 110
