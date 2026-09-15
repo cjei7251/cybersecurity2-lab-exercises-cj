@@ -1433,17 +1433,7 @@
                 "x": 490,
                 "y": 560
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
@@ -1559,8 +1549,8 @@
           },
           {
             "position": {
-              "x": 560,
-              "y": 110
+              "x": 550,
+              "y": 90
             },
             "size": {
               "width": 130,
@@ -1568,7 +1558,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Admin Order\nManagement"
+                "text": "Checkout\nService"
               },
               "body": {
                 "stroke": "#333333",
@@ -1664,7 +1654,7 @@
             "id": "81685daa-73eb-4170-93d8-1ec70e118450",
             "data": {
               "type": "tm.Process",
-              "name": "Admin Order\nManagement",
+              "name": "Checkout\nService",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1679,7 +1669,7 @@
           },
           {
             "position": {
-              "x": 717,
+              "x": 742,
               "y": 260
             },
             "size": {
