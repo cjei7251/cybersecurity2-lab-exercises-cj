@@ -1857,12 +1857,42 @@
             ],
             "id": "8aa8e384-4258-4628-a26a-155740d35bc5",
             "source": {
-              "x": 700,
-              "y": 140
+              "x": 650,
+              "y": 120
             },
             "target": {
-              "x": 800,
-              "y": 240
+              "cell": "f47aaaa8-c212-44bb-bb70-3d8e0c0b184f",
+              "port": "d86cfee7-ab7f-4b33-b569-8db54172be26"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           },
           {
