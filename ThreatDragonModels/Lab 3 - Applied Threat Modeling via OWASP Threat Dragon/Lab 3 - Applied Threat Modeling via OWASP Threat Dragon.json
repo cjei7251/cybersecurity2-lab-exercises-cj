@@ -1403,7 +1403,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Issue Token",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1417,7 +1417,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Issue Token"
             ],
             "id": "da2380fc-6578-4631-9f6a-590f078b97de",
             "source": {
@@ -1432,6 +1432,128 @@
               {
                 "x": 490,
                 "y": 560
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Decrement Stock",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Decrement Stock"
+            ],
+            "id": "730a908b-9618-42e4-9f33-5d63db1c3b7f",
+            "source": {
+              "x": 580,
+              "y": 380
+            },
+            "target": {
+              "cell": "905040fe-bccd-47bb-9786-305a90940b0c",
+              "port": "ba3df3e7-0f6e-4fb0-a4c6-e92a7f8c8256"
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": 410
+              },
+              {
+                "x": 670,
+                "y": 410
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Shipping Address,\nCart Contents",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Shipping Address,\nCart Contents"
+            ],
+            "id": "6b644d71-3ef5-4370-993f-ec8a826fcc4b",
+            "source": {
+              "x": 210,
+              "y": 170
+            },
+            "target": {
+              "cell": "81685daa-73eb-4170-93d8-1ec70e118450",
+              "port": "d86cfee7-ab7f-4b33-b569-8db54172be26"
+            },
+            "vertices": [
+              {
+                "x": 240,
+                "y": 150
+              },
+              {
+                "x": 390,
+                "y": 100
               }
             ]
           },
