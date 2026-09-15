@@ -1548,6 +1548,52 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "c1d2bba5-350f-4dc8-aee9-43464ccc5ed4",
+            "source": {
+              "x": 500,
+              "y": 185
+            },
+            "target": {
+              "cell": "81685daa-73eb-4170-93d8-1ec70e118450",
+              "port": "e9b709d2-b761-4440-b9e7-1c5d939b2da9"
+            }
+          },
+          {
             "position": {
               "x": 550,
               "y": 90
@@ -1669,8 +1715,8 @@
           },
           {
             "position": {
-              "x": 742,
-              "y": 260
+              "x": 772,
+              "y": 275
             },
             "size": {
               "width": 130,
@@ -1789,7 +1835,7 @@
           },
           {
             "position": {
-              "x": 759,
+              "x": 789,
               "y": 110
             },
             "size": {
@@ -1905,6 +1951,133 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 625,
+              "y": 200
+            },
+            "size": {
+              "width": 130,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Admin Order\nManagement"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "d86cfee7-ab7f-4b33-b569-8db54172be26"
+                },
+                {
+                  "group": "right",
+                  "id": "8c2b9d30-d2ab-4059-a2b4-a599bf2d4b06"
+                },
+                {
+                  "group": "bottom",
+                  "id": "b6ddb078-aabb-4e33-a006-001a5894c3bb"
+                },
+                {
+                  "group": "left",
+                  "id": "e9b709d2-b761-4440-b9e7-1c5d939b2da9"
+                }
+              ]
+            },
+            "id": "cb02bcbf-0e5d-4bb4-9110-10e80c77109f",
+            "data": {
+              "type": "tm.Process",
+              "name": "Admin Order\nManagement",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 14,
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
