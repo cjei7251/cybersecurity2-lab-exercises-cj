@@ -21,7 +21,7 @@
         "cells": [
           {
             "position": {
-              "x": 190,
+              "x": 150,
               "y": 170
             },
             "size": {
@@ -138,8 +138,8 @@
           },
           {
             "position": {
-              "x": 200,
-              "y": 290
+              "x": 160,
+              "y": 275
             },
             "size": {
               "width": 112.5,
@@ -985,8 +985,8 @@
           },
           {
             "position": {
-              "x": 380,
-              "y": 170
+              "x": 390,
+              "y": 155
             },
             "size": {
               "width": 130,
@@ -1222,6 +1222,58 @@
               "threats": []
             },
             "zIndex": 10
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Credentials",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Credentials"
+            ],
+            "id": "c65ea51f-6794-42b9-b75d-1d48198588ba",
+            "source": {
+              "cell": "94fea743-daaa-4c55-8985-0ad05c41a3a8",
+              "port": "d38afda7-c59b-42e0-94f9-eb1cad718a14"
+            },
+            "target": {
+              "cell": "ea386bae-7843-4ff8-831c-bd4be127799d",
+              "port": "e9b709d2-b761-4440-b9e7-1c5d939b2da9"
+            },
+            "vertices": [
+              {
+                "x": 340,
+                "y": 200
+              }
+            ]
           },
           {
             "position": {
